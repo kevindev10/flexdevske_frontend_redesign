@@ -42,7 +42,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu} style={{'font-family': 'Audiowide'}}>
             Flex DevsKe
-            <i className="fa fa-cubes ml2" aria-hidden="true"></i>
+            
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
