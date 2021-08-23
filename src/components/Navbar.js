@@ -40,7 +40,7 @@ function Navbar() {
     <>
       <nav className={navbar ? 'navbar active' :'navbar'}>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu} style={{'font-family': 'Audiowide'}}>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
             Flex DevsKe
             
           </Link>
@@ -55,20 +55,20 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/our-work'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Our Work
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Contact us
               </Link>
             </li>
 

@@ -1,0 +1,138 @@
+
+.banner-slider-main{
+
+	background: no-repeat center;
+	background-size: cover;
+	width: 100%  !important;
+	max-height: 100% !important;
+	height:100vh !important;
+
+}
+
+
+.banner-slider-semi-transparent-cover{
+
+	width: 100%!important;
+	max-height: 100% !important;
+	height:100vh !important;
+	
+}
+.cover-color-0{
+	/* background-image: linear-gradient(#333333F2, #dd1818F2); */
+	background-image: linear-gradient(#ffd8cbf1, #f9d29df1);
+}
+.cover-color-1{
+	/* background-image: linear-gradient(#333333F2, #dd1818F2); */
+	background-image: linear-gradient(#f9886cf1, #fbfbfbf1);
+}
+
+.cover-color-2{
+	background-image: linear-gradient(#ffd166f1, #fffcf9f1);
+}
+
+.cover-color-3{
+	background-image: linear-gradient(#fffbfcf1 ,#29e7cdf1 );
+}
+
+.company-name-font{
+	font-size:3.8rem;
+	font-family: 'Audiowide', cursive !important;
+}
+/* .vertical-line{
+	border-left: 3px solid white;
+  height: 350px;
+  position: absolute;
+  left: 0;
+  margin-left: 75%;
+  
+  top: 25%;
+} */
+.banner-slider-paragraph-positioning{
+
+		margin-left: 8.8%;
+		margin-right: 8.8%;
+		margin-top: 20%;
+		display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    
+   
+}
+
+
+
+
+
+.slick-dots{
+	
+	top:90%;
+	
+	
+	
+}
+.slick-dots li button:before {
+	font-size: 0.7rem !important;
+    color: black !important;
+		
+  }
+
+
+.slick-dots li.slick-active button:before{
+  font-size:1.2rem !important;
+  color:white !important;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+	
+ 	
+
+ 	.slick-dots{
+	  top:80%;
+    }
+
+	.slick-dots li button:before {
+		font-size: 0.7rem !important;
+	    color: black !important;
+	  }
+
+
+	.slick-dots li.slick-active button:before{
+	  font-size:1.2rem !important;
+	  color:white !important;
+	}
+	.slider-heading-on-mobile{
+		font-size: 21px;
+		
+	}
+	
+	.banner-slider-paragraph-positioning{
+
+		margin-left: 8.8%;
+		margin-right: 8.8%;
+		margin-top: 50%;
+		display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+  }
+
+  .slider-paragraph-on-mobile1{
+  	font-size: 0.9rem !important;
+  }
+  .slider-paragraph-on-mobile2{
+  	font-size: 1.5rem !important;
+  }
+  .slider-paragraph-on-mobile3{
+  	font-size: 1rem !important;
+  }
+  .vertical-line{
+  	display: none;
+  }
+
+}

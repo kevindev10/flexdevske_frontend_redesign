@@ -40,6 +40,7 @@
   font-size: 1.6rem;
   display: flex;
   align-items: center;
+  font-family: 'Audiowide', cursive !important;
 }
 
 .fa-cubes {
@@ -80,9 +81,9 @@
   color:black;
 }
 
-.nav-links-mobile {
+/* .nav-links-mobile {
   display: none;
-}
+} */
 
 .menu-icon {
   display: none;
@@ -125,13 +126,18 @@
     background-color: #fff;
     color: #242424;
     border-radius: 0;
+    border-bottom: none;
+  }
+
+  .nav-links:focus{
+    background-color:white;
   }
 
   .navbar-logo {
     
     
     font-size: 1.4rem;
-    margin-top: 5%;
+    margin-top: 6.5%;
     margin-left: 5%;
     position: absolute;
     top: 0;
@@ -144,7 +150,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 5%;
+    margin-top: 6.5%;
     margin-right: 30px;
     font-size: 1.4rem;
     cursor: pointer;
@@ -156,7 +162,7 @@
     font-size: 1.4rem;
   }
 
-  .nav-links-mobile {
+  /* .nav-links-mobile {
     display: block;
     text-align: center;
     margin: 2rem auto;
@@ -169,11 +175,11 @@
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
-  }
+  } */
 
-  .nav-links-mobile:hover {
+  /* .nav-links-mobile:hover {
     background: #fff;
     color: #242424;
     transition: 250ms;
-  }
+  } */
 }
