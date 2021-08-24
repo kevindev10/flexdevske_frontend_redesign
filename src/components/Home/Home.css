@@ -3,3 +3,63 @@
    margin-top: -80px;
 
 }
+
+
+
+
+
+@media screen and (max-width: 960px){
+   .heading-on-mobile{
+      font-size: 1.6rem;
+      padding-left: 8.8%;
+      padding-right: 8.8%;
+   }
+   .paragraph-on-mobile{
+      font-size: 1.0rem;
+      padding-left: 8.8%;
+      padding-right: 8.8%;
+      padding-bottom: 3.0rem;
+   }
+
+
+   .get-your-website-main-mobile-view{
+      padding-top: 8.8% ;
+      padding-bottom: 8.8%;
+
+   }
+   .get-your-website-flex-mobile-view{
+      display: block;
+      width: 100% !important;
+      margin-left: 0% !important;
+      margin-right: 0% !important;
+     
+      
+   }
+   .get-your-website-paragraph-mobile-view{
+      width: 100% !important;
+      font-size:1.0rem !important;
+      padding-left: 8.8% !important;
+      padding-right: 8.8% !important;
+      text-align: left;
+      margin-bottom: 8.8%%;
+      margin-left: 0% !important;
+      margin-right: 0% !important;
+      
+
+   }
+
+   .get-your-website-image-mobile-view{
+
+
+         width: 100% !important;
+         margin-left: 0% !important;
+         margin-right: 0% !important;
+         padding-top: 8.8% !important;
+         padding-left: 8.8% !important;
+         padding-right: 8.8% !important;
+         padding-bottom: 8.8% !important;
+        
+   }
+
+
+}
