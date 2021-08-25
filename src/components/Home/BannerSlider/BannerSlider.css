@@ -51,7 +51,8 @@
 
 		margin-left: 8.8%;
 		margin-right: 8.8%;
-		margin-top: 20%;
+		margin-top: 44vh;
+		
 		display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -92,7 +93,7 @@
  	
 
  	.slick-dots{
-	  top:80%;
+	  top:80vh;
     }
 
 	.slick-dots li button:before {
@@ -114,7 +115,7 @@
 
 		margin-left: 8.8%;
 		margin-right: 8.8%;
-		margin-top: 50%;
+		margin-top: 30vh;
 		display: flex;
     flex-direction: column;
     justify-content: flex-start;

@@ -4,20 +4,64 @@
 
 }
 
+.full-bleed-image{
+   background: no-repeat center center fixed;
+   background-size: cover;
+   
+   height: 100vh !important;
+   
+}
+
+.full-bleed-transparent-cover{
+   background: rgba(0, 0, 0, 0.7);
+   width: 100%;
+   height: 100vh !important;
+}
+
+.full-bleed-text-header{
+   font-size: 3.8rem;
+   padding-left: 8.8%;
+   padding-right: 8.8%;
+   padding-top: 36vh;
+   
+
+
+}
+
+.full-bleed-text-paragraph-1{
+   font-size: 1.6rem;
+   padding-top:2%;
+   padding-left: 8.8%;
+   padding-right: 8.8%;
+}
+
+.full-bleed-text-paragraph-2{
+   font-size: 1.0rem;
+   padding-top:2%;
+   padding-left: 8.8%;
+   padding-right: 8.8%;
+}
+
+.full-bleed-text-paragraph-3{
+   font-size: 1.0rem;
+   padding-top:2%;
+   padding-left: 8.8%;
+   padding-right: 8.8%;
+}
 
 
 
 
-@media screen and (max-width: 960px){
+
+
+@media screen and (max-width: 960px) {
    .heading-on-mobile{
       font-size: 1.6rem;
-      padding-left: 8.8%;
-      padding-right: 8.8%;
+      
+      text-align: left;
    }
    .paragraph-on-mobile{
       font-size: 1.0rem;
-      padding-left: 8.8%;
-      padding-right: 8.8%;
       padding-bottom: 3.0rem;
    }
 
@@ -60,6 +104,36 @@
          padding-bottom: 8.8% !important;
         
    }
+
+
+   .full-bleed-text-header{
+      font-size: 1.6rem;
+      padding-top: 26vh;
+   }   
+
+   .full-bleed-text-paragraph-1{
+      font-size: 1.4rem;
+      padding-top:5vh;
+   }
+
+   .full-bleed-text-paragraph-2{
+      font-size: 1.0rem;
+      padding-top:3vh;
+   }
+
+
+   .full-bleed-transparent-cover{
+      
+     
+   }
+   .full-bleed-image{
+      
+      background-attachment:scroll
+    
+    
+      
+   }
+
 
 
 }
