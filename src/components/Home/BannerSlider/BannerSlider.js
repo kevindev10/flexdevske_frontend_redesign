@@ -145,14 +145,7 @@ export default class AutoPlay extends Component {
               </div>
 
 
-
-
-          
-             
-
-
-              
-          
+                   
 
         </Slider>
       </div>

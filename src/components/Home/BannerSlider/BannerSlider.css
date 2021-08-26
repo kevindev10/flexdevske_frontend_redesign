@@ -18,11 +18,11 @@
 	
 }
 .cover-color-0{
-	/* background-image: linear-gradient(#333333F2, #dd1818F2); */
+	
 	background-image: linear-gradient(#ffd8cbf1, #f9d29df1);
 }
 .cover-color-1{
-	/* background-image: linear-gradient(#333333F2, #dd1818F2); */
+	
 	background-image: linear-gradient(#f9886cf1, #fbfbfbf1);
 }
 
@@ -38,15 +38,7 @@
 	font-size:3.8rem;
 	font-family: 'Audiowide', cursive !important;
 }
-/* .vertical-line{
-	border-left: 3px solid white;
-  height: 350px;
-  position: absolute;
-  left: 0;
-  margin-left: 75%;
-  
-  top: 25%;
-} */
+
 .banner-slider-paragraph-positioning{
 
 		margin-left: 8.8%;

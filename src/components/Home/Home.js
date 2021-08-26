@@ -2,8 +2,9 @@ import React from 'react';
 import './Home.css';
 import BannerSlider from './BannerSlider/BannerSlider';
 import responsiveWebDesign from './responsive_Web_Design.png';
-import bottomBanner from './bottomBanner.jpg';
 import whyus from './whyus.jpg';
+import impressiveDesign from './impressiveDesign.mp4';
+import responsiveDesign from './responsiveWebDesign.mp4';
 
 
 function Home() {
@@ -52,8 +53,39 @@ function Home() {
 									</div>
 								</div>
 							</article>
-					
 
+
+
+
+		
+
+
+
+
+							<div className='pv5' style={{'backgroundColor':'white'}}>
+								
+								<div className='flex ideal-web-flex-on-mobile' style={{'width':'82.4%', 'marginLeft':'8.8%', 'marginRight':'8.8%'}}>
+									<div className='w-50  impre-des-image-on-mobile' style={{'paddingTop':'5vh','paddingBottom':'5vh'}}>
+										<video  autoPlay loop muted playsInline style={{'maxWidth':'100%'}}>
+											<source src={responsiveDesign} type="video/mp4"/>
+										</video>
+										{/* <img className='br2 ' src={resWebDes} alt='impressive design gif'  /> */}
+										</div>
+
+
+									<div className='w-50 pl4 tl ideal-web-headNpara-on-mobile' style={{'paddingTop':'15%'}}>
+										<h2 className=' impre-des-heading-on-mobile' style={{'fontSize':'1.6rem'}}>Responsive Web Design</h2>
+										<p className='gray  impre-des-paragraph-on-mobile' style={{'fontSize':'1rem', 'paddingTop':'3vh'}}>We build responsive
+										websites that looks great no matter it’s viewed on a computer, mobile
+										or tablet. Delight and impress your visitors with a highly user-friendly
+										website.
+										</p>
+									</div>
+
+									
+								</div>
+							</div>
+				
 
 
 
@@ -65,10 +97,6 @@ function Home() {
 			
 				
 
-				<img className ='' src ={bottomBanner} alt=''/>
-				<img className ='' src ={bottomBanner} alt=''/>
-				<img className ='' src ={bottomBanner} alt=''/>
-				<img className ='' src ={bottomBanner} alt=''/>
 				
 				
 				
