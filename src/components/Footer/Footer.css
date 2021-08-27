@@ -1,0 +1,129 @@
+.footer-social-facebook:hover{
+  background-color: #3B5998;
+  color: white;
+  line-height: 55px;
+  
+ 
+ 
+ 
+  
+
+}
+.footer-social-twitter:hover{
+  background: #55ACEE;
+  color: white;
+  line-height: 52px;
+ 
+  
+
+  
+}
+
+.footer-social-instagram:hover{
+ background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+     
+  color: white;
+  line-height: 52px;
+ 
+  
+}
+
+.footer-social-whatsapp:hover{
+color: #4FCE5D;
+background-color: white;
+line-height: 45px;
+}
+
+
+
+.footer-icon-carevolution {
+bottom: 13%;
+position: fixed;
+right: 20px;
+height: 60px;
+width: 160px;
+z-index: 9;
+
+font-size: 16px;
+}
+
+
+@media screen and (max-width: 960px){
+
+
+  .footer-flex{
+    display: block;
+ }
+ .width-100-cname{
+    width: 100%;
+    text-align: center;
+ }
+ .footer-company-name{
+    font-size: 43px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+ }
+ .footer-all-social-icons{
+    margin-left: 10px;
+    margin-right: 10px;
+     margin-bottom: 30px;
+ }
+ .width-100-phn-no{
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+ .phn-no{
+    font-size: 38px !important;
+
+ }
+ .footer-horizontal-line{
+    display: none;
+ }
+ .footer-terms-main{
+    display: block;
+    text-align: center;
+
+ }
+ .nairob-kenya{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ .email-us{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+ }
+ .email-us-font{
+    font-size:22px !important;
+ }
+ .footer-terms{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+ }
+ .footer-privacy{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+ 
+ .footer-google{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+
+
+}

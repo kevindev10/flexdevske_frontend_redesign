@@ -135,5 +135,43 @@
    }
 
 
+   .ideal-web-flex-on-mobile{
+      display: block;
+      width: 100% !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+     
+      
+
+
+   }
+
+   .impre-des-image-on-mobile{
+       
+      width: 100%;
+      padding-left: 8.8% !important;
+      padding-right: 8.8% !important;
+   }
+
+   .ideal-web-headNpara-on-mobile{
+      width: 100%;
+      padding-left: 8.8% !important;
+      padding-right: 8.8% !important;
+   }
+
+   .impre-des-heading-on-mobile{
+      font-size:1.4rem !important;
+   }
+   .impre-des-paragraph-on-mobile{
+      font-size: 1.0rem !important;
+      text-align: left;
+     
+     
+   }
+
+  .our-mission-heading-on-mobile{
+     font-size: 1.6rem !important;   
+  }
+
 
 }

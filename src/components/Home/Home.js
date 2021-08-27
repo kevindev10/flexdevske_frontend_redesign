@@ -3,8 +3,9 @@ import './Home.css';
 import BannerSlider from './BannerSlider/BannerSlider';
 import responsiveWebDesign from './responsive_Web_Design.png';
 import whyus from './whyus.jpg';
-import impressiveDesign from './impressiveDesign.mp4';
 import responsiveDesign from './responsiveWebDesign.mp4';
+import ourMission from './ourMission.jpg';
+import Footer from '../Footer/Footer';
 
 
 function Home() {
@@ -64,30 +65,44 @@ function Home() {
 
 							<div className='pv5' style={{'backgroundColor':'white'}}>
 								
-								<div className='flex ideal-web-flex-on-mobile' style={{'width':'82.4%', 'marginLeft':'8.8%', 'marginRight':'8.8%'}}>
-									<div className='w-50  impre-des-image-on-mobile' style={{'paddingTop':'5vh','paddingBottom':'5vh'}}>
-										<video  autoPlay loop muted playsInline style={{'maxWidth':'100%'}}>
-											<source src={responsiveDesign} type="video/mp4"/>
-										</video>
-										{/* <img className='br2 ' src={resWebDes} alt='impressive design gif'  /> */}
-										</div>
+								<article className='flex ideal-web-flex-on-mobile' style={{'width':'82.4%', 'marginLeft':'8.8%', 'marginRight':'8.8%'}}>
+									<section className='w-50  impre-des-image-on-mobile' style={{'paddingTop':'5vh','paddingBottom':'5vh'}}>
+											<video  autoPlay loop muted playsInline  preload="auto" style={{'maxWidth':'100%'}}>
+												<source src={responsiveDesign} type="video/mp4"/>
+											</video>
+											
+									</section>
 
 
-									<div className='w-50 pl4 tl ideal-web-headNpara-on-mobile' style={{'paddingTop':'15%'}}>
-										<h2 className=' impre-des-heading-on-mobile' style={{'fontSize':'1.6rem'}}>Responsive Web Design</h2>
+									<section className='w-50 pl4 tl ideal-web-headNpara-on-mobile' style={{'paddingTop':'15%'}}>
+										<h2 className=' impre-des-heading-on-mobile' style={{'fontSize':'1.6rem'}}>Responsive Web Design
+									  </h2>
 										<p className='gray  impre-des-paragraph-on-mobile' style={{'fontSize':'1rem', 'paddingTop':'3vh'}}>We build responsive
 										websites that looks great no matter it’s viewed on a computer, mobile
 										or tablet. Delight and impress your visitors with a highly user-friendly
 										website.
 										</p>
-									</div>
+									</section>
 
 									
-								</div>
+								</article>
 							</div>
 				
 
+							
 
+
+								<div className="cover bg-left bg-center-l" style={{"backgroundImage": "url("+ourMission+")","height":"100vh" }}>
+									<article className="bg-black-80 " style={{"height":"100vh"}}>
+										
+										<section className=" " style={{'paddingTop':'45vh',}}>
+											<h2 className="white our-mission-heading-on-mobile" style={{'fontSize':'4.6rem', 'marginLeft':'8.8%', 'marginRight':'8.8%'}}>Our Mission </h2>
+											<p className="white mt3" style={{'fontSize':'1.0rem', 'marginLeft':'8.8%', 'marginRight':'8.8%'}}>Our mission is to alter the dynamics of the industry by providing trusted, supportive and quality web solution services to the clients that view our partnership as a strategic driver for their success.</p>
+										
+										</section>
+									</article>
+								</div> 
+							
 
 
 
@@ -95,7 +110,9 @@ function Home() {
 
 				
 			
-				
+				<footer>
+					<Footer/>
+				</footer>
 
 				
 				
