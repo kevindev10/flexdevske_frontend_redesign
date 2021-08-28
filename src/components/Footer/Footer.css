@@ -40,21 +40,18 @@ line-height: 45px;
 
 
 
-.footer-icon-carevolution {
-bottom: 13%;
-position: fixed;
-right: 20px;
-height: 60px;
-width: 160px;
-z-index: 9;
-
-font-size: 16px;
-}
 
 
 @media screen and (max-width: 960px){
-
-
+.background-height{
+   height:100vh !important; 
+}
+.background-cover{
+   height:100vh !important; 
+}
+.footer{
+   padding-top: 17vh !important;
+}
   .footer-flex{
     display: block;
  }
@@ -63,24 +60,52 @@ font-size: 16px;
     text-align: center;
  }
  .footer-company-name{
-    font-size: 43px !important;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    font-size: 2.0rem !important;
+    margin-left: 8.8% !important;
+    margin-right: 8.8% !important;
+    margin-bottom: 2vh !important;
  }
+
+ .footer-social-facebook{
+   font-size: 2.5rem;
+}
+.footer-social-twitter{
+   font-size: 2.5rem;
+}
+.footer-social-instagram{
+   font-size: 2.5rem;
+}
+.footer-social-whatsapp{
+   font-size: 2.5rem;
+}
+.footer-social-facebook:hover{
+   line-height: 32px !important;
+
+}
+.footer-social-twitter:hover{
+   line-height: 25px !important;
+
+}
+.footer-social-instagram:hover{
+   line-height: 25px !important;
+}
+.footer-social-whatsapp:hover{
+   line-height: 25px !important;
+}
+
  .footer-all-social-icons{
-    margin-left: 10px;
-    margin-right: 10px;
-     margin-bottom: 30px;
+   margin-left: 8.8% !important;
+   margin-right: 8.8% !important;
+   margin-bottom: 4vh !important;
  }
  .width-100-phn-no{
     width: 100%;
     text-align: center;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0% !important;
+    margin-right:0% !important;
  }
  .phn-no{
-    font-size: 38px !important;
+    font-size: 1.6rem !important;
 
  }
  .footer-horizontal-line{
@@ -92,38 +117,36 @@ font-size: 16px;
 
  }
  .nairob-kenya{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 0vh !important;
+    padding-bottom: 0vh !important;
+    font-size:1.0rem !important;
+    margin-top:2vh !important;
+    margin-bottom: 0vh!important;
  }
 
  .email-us{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 2vh !important;
+    margin-bottom: 0vh!important;
     
  }
  .email-us-font{
-    font-size:22px !important;
+    font-size:1.2rem !important;
  }
  .footer-terms{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    display: none;
+
     
  }
  .footer-privacy{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+   display: none;
+
  }
  
  .footer-google{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+   display: none;
+
  }
 
+ 
 
 }
