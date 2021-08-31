@@ -28,7 +28,7 @@ function Footer() {
                                 <a href="https://web.facebook.com/Flex-DevsKe-111123327891531" target="blank" rel="noreferrer" className='no-underline gray'>	<i className=" fab fa-facebook-square fa-4x mr3  footer-social-facebook"></i> </a>
                                 <a href="https://twitter.com/home?logout=1625046868916" target="blank" rel="noreferrer" className='no-underline gray'>   <i className="fab fa-twitter-square  fa-4x mr3 footer-social-twitter"></i> </a>
                                 <i className="fab fa-instagram-square fa-4x mr3 footer-social-instagram"></i>
-                                <a href="https://wa.me/0789563415" target="blank" rel="noreferrer" className='no-underline gray'>	<i className=" fab fa-whatsapp-square fa-4x mr3  footer-social-whatsapp"></i> </a>
+                                <a href="https://wa.me/254789563415" target="blank" rel="noreferrer" className='no-underline gray'>	<i className=" fab fa-whatsapp-square fa-4x mr3  footer-social-whatsapp"></i> </a>
                               </div>
                             </div>
                             
