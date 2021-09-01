@@ -21,17 +21,17 @@ function OurWork() {
 		<>
 			 
 				
-				 <div className='div-background-images slider-image-size-on-mobile 'style={{"backgroundImage": "url(" + banner + ") ",  }}>
+				 <div className='div-background-images  'style={{"backgroundImage": "url(" + banner + ") ",  }}>
 
             <article className="bg-black-60 our-work-background-cover ">
 
                         <section  >
-                          <h1  className='white tl  our-work-header header-paragraph-1-on-mobile ' style={{'fontSize':'4.6rem','marginLeft':'8.8%', 'marginRight':'8.8%' }} >
+                          <h1  className='white tl  our-work-header header-on-mobile ' style={{'fontSize':'4.6rem','marginLeft':'8.8%', 'marginRight':'8.8%' }} >
                           OUR WORK
                           </h1>
 
-                          <h2 className='white tl' style={{'fontSize':'1.6rem','marginLeft':'8.8%', 'marginRight':'8.8%', }} >Some of our recent Website Design & Development Projects  </h2>
-                          <p className='white tl' style={{'fontSize':'1.0rem','marginLeft':'8.8%', 'marginRight':'8.8%', 'marginTop':'2vh' }} >
+                          <h2 className='white tl header-subheading-on-mobile' style={{'fontSize':'1.6rem','marginLeft':'8.8%', 'marginRight':'8.8%', }} >Some of our recent Website Design & Development Projects  </h2>
+                          <p className='white tl header-paragraph-1-on-mobile' style={{'fontSize':'1.0rem','marginLeft':'8.8%', 'marginRight':'8.8%', 'marginTop':'2vh' }} >
                           Our websites and apps don’t just look good, they perform, they convert. If you are looking to generate enquiries, increase sales or maximise awareness we have the in-house web design and development teams in place to achieve this.
                           </p>
                     
@@ -56,7 +56,7 @@ function OurWork() {
 						    <div className="flex flex-column flex-row-ns portfolio-on-mobile-main">
 						      <div className="w-100 w-50-ns pr3-ns order-2 order-1-ns bg-white portfolio-on-mobile-pararaph-width">
 						        <h2 className=" mt0 tc-l mt4 mt5-m mt6-l ph3 portfolio-on-mobile-pararaph-head-padding  " style={{'fontSize':'1.6rem'}}>LUSHROOM FURNITURE</h2>
-						        <p className=" ph4 tc pt2 " style={{'fontSize':'1.0rem'}}>
+						        <p className=" ph4 tc pt2  portfolio-on-mobile-pararaph-sub-head-padding" style={{'fontSize':'1.0rem'}}>
 						          Website Design / Development
 						        </p>
 						        <div className='tc pt4'>
@@ -79,7 +79,7 @@ function OurWork() {
 									  data-aos-delay="200"
 									  data-aos-duration="11000" 
 								  	className	=" order-1 order-2-ns mb4 mb0-ns w-100 w-50-ns portfolio-on-mobile-img-width">
-						        <img src={lushroomFurnitureWebsite} className="db" alt="Lushroom furniture website."/>
+						        <img src={lushroomFurnitureWebsite} className="db portfolio-on-mobile-actual-img" alt="Lushroom furniture website."/>
 						      </div>
 						    </div>
 						   
@@ -102,7 +102,7 @@ function OurWork() {
 							        </div>
 							        <div className="w-100 w-50-ns pl3-ns bg-white portfolio-on-mobile-pararaph-width">
 							          <h2 className="  mt0 lh-title tc-l mt4 mt5-m mt6-l ph3 portfolio-on-mobile-pararaph-head-padding-second-paragraph" style={{'fontSize':'1.6rem'}}>GIGA . PLANT & EQUIPMENT </h2>
-							          <p className=" ph4 tc pt2 " style={{'fontSize':'1.0rem'}}>
+							          <p className=" ph4 tc pt2 portfolio-on-mobile-pararaph-sub-head-padding" style={{'fontSize':'1.0rem'}}>
 													Website Design / Development
 												</p>
 							            <div className='tc pt4'>
@@ -127,7 +127,7 @@ function OurWork() {
 						    <div className	="flex flex-column flex-row-ns portfolio-on-mobile-main">
 						      <div className="w-100 w-50-ns pr3-ns order-2 order-1-ns bg-white portfolio-on-mobile-pararaph-width">
 						        <h2 className=" mt0 lh-title tc-l mt4 mt5-m mt6-l ph3 portfolio-on-mobile-pararaph-head-padding "  style={{'fontSize':'1.6rem'}}>WATER LIFE NGO</h2>
-						        <p className=" ph4 tc pt2 " style={{'fontSize':'1.0rem'}}>
+						        <p className=" ph4 tc pt2 portfolio-on-mobile-pararaph-sub-head-padding" style={{'fontSize':'1.0rem'}}>
 						          Website Design / Development
 						        </p>
 						        <div className='tc pt4'>
@@ -169,7 +169,7 @@ function OurWork() {
 							        </div>
 							        <div className="w-100 w-50-ns pl3-ns bg-white portfolio-on-mobile-pararaph-width">
 							          <h2 className=" mt0 lh-title tc-l mt4 mt5-m mt6-l ph3 portfolio-on-mobile-pararaph-head-padding-second-paragraph" style={{'fontSize':'1.6rem'}}>BIONIST MERCHANTS</h2>
-							          <p className=" ph4 tc pt2 " style={{'fontSize':'1.0rem'}}>
+							          <p className=" ph4 tc pt2 portfolio-on-mobile-pararaph-sub-head-padding " style={{'fontSize':'1.0rem'}}>
 													Website Design / Development
 												</p>
 							            <div className='tc pt4'>
@@ -190,7 +190,7 @@ function OurWork() {
 						    <div className="flex flex-column flex-row-ns portfolio-on-mobile-main">
 						      <div className="w-100 w-50-ns pr3-ns order-2 order-1-ns bg-white portfolio-on-mobile-pararaph-width">
 						        <h2 className	="f5  mt0 lh-title tc-l mt4 mt5-m mt6-l ph3 portfolio-on-mobile-pararaph-head-padding"  style={{'fontSize':'1.6rem'}} >INSTRUOUS CONSTRUCTION</h2>
-										<p className=" ph4 tc pt2 " style={{'fontSize':'1.0rem'}}>
+										<p className=" ph4 tc pt2  portfolio-on-mobile-pararaph-sub-head-padding" style={{'fontSize':'1.0rem'}}>
 						          Website Design / Development
 						        </p>
 
