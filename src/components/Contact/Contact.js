@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import './Contact.css';
 import banner from './banner.jpg';
-import {Link} from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import Footer from '../Footer/Footer';
 
@@ -26,6 +25,9 @@ class Contact extends Component {
 	constructor(props){
 		super(props);
 		this.state = intialState;
+		this.myRef = React.createRef();
+
+		this.onButtonSubmit = this.onButtonSubmit.bind(this)
 	}
 
 
@@ -104,10 +106,12 @@ class Contact extends Component {
 		.then(data => {
 			if (data==="success"){
 				this.setState({sent:true})
+				this.myRef.current.scrollIntoView({ behavior: 'smooth',block: 'center',	inline: 'center'})
+				
 				
 			}else{
 				this.setState({sent:false})
-				
+				this.myRef.current.scrollIntoView({ behavior: 'smooth',block: 'center',	inline: 'center'})
 			}
 
 			
@@ -127,12 +131,12 @@ class Contact extends Component {
                 <article className="bg-black-60 our-work-background-cover ">
 
                             <section  >
-                              <h1  className='white tl  our-work-header header-on-mobile ' style={{'fontSize':'4.6rem','marginLeft':'8.8%', 'marginRight':'8.8%' }} >
+                              <h1  className='white tl  our-work-header header-on-mobile header-margin-top-on-mobile-fix' style={{'fontSize':'4.6rem','marginLeft':'8.8%', 'marginRight':'8.8%' }} >
                               GET IN TOUCH
                               </h1>
 
                               
-                              <p className='white tl header-paragraph-1-on-mobile' style={{'fontSize':'1.0rem','marginLeft':'8.8%', 'marginRight':'8.8%','marginTop':'-4vh' }} >
+                              <p className='white tl header-paragraph-1-on-mobile marginTop-on-mobile-fix' style={{'fontSize':'1.0rem','marginLeft':'8.8%', 'marginRight':'8.8%','marginTop':'-4vh' }} >
                               Whether you are stopping by to say ‘hi’ or to talk about your next website, get in touch, we can’t wait to hear from you.
                               </p>
                         
@@ -441,12 +445,12 @@ class Contact extends Component {
 
 
 
+								
 
-
-								<div>	
+								<div  >	
 									
-
-									<h2 className=' red dim not-sent-on-mobile' style={{'fontSize':'1.0rem'}}>*Not sent. Kindly fill in all the details.</h2>	
+									
+									<h2 ref={this.myRef}  className=' red dim not-sent-on-mobile' style={{'fontSize':'1.0rem'}}>*Not sent. Kindly fill in all the details.</h2>	
 
                   <div>
 
@@ -618,6 +622,7 @@ class Contact extends Component {
         <div className="mv3 flex input-boxes-flex-on-mobile">
         <label className="w-30 db  select-options-property-font " htmlFor="phone" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>Phone :</label>
         <input
+						
            onChange ={this.onPhoneChange}
            className="input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
            style ={{ 'fontSize':'1.0rem'}}
@@ -629,8 +634,8 @@ class Contact extends Component {
       </div>
 
 
-
-                      <h2 className=' red dim not-sent-on-mobile' style={{'fontSize':'1.0rem'}}>*Not sent. Kindly fill in all the details.</h2>	
+			
+                      
 
 								      <p className=' red pv4 dim  fw8' style={{ 'fontSize':'1.0rem'}}>* Fill in all details before sending.</p>
 
@@ -669,212 +674,13 @@ class Contact extends Component {
 
 
 				    		 	<div>
-				    				 <h2 className=' green  sent-paragraph-on-mobile ' atyle={{'fontSize':'1.0rem'}}>Sent. Thanks for getting in touch! Expect an answer from us in the next few hours.</h2>
-                    <div>
-
-<article className="br2 ba dark-gray  b--black-10 mv4    getfreequote-main" style={{'backgroundColor':'#FBFBFB'}} >
-<main className="pa4 black-80  ">
-  <div className="" >
-    <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-      <legend className="  ph0 mh0" style={{'color':'#3F1717', 'fontSize':'1.0rem' }}>
-        Thanks for contacting Flex DevsKe. How can we help you today
-      </legend>
-
-
-
-
-
-
-      <div className=' pv2 tl    mt4 select-options-property-font' style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>
-
-
-         Type of website :
-            <select value={this.state.websiteType} onChange={this.onWebsiteTypeChange} className=" select-bx-stylin ml2 gray br2 pv2  ph2" style={{ 'fontSize':'1.0rem'}} >
-              <option value="new-website">I need a new website</option>
-              <option value="website-redesign">I need  a redesign of my current website</option>
-              
-            </select>
-
-    
-        </div>
-
-
-
-
-  
-
-  <div className='pv2 tl   mt4 select-options-property-font' style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>
-
-
-        Website category :
-            <select value={this.state.companyType} onChange ={this.onCompanyTypeChange} className=" select-bx-stylin ml2 gray br2 pv2  ph2"  style={{ 'fontSize':'1.0rem'}}>
-              <option value="personal-website">Personal website</option>
-              <option value="startup-website">Startup business </option>
-              <option value="sme-website">Small and medium-sized enterprises ( SME )</option>
-              <option value="corporate-website">Corporate</option>
-              <option value="ngo-local-website">Non profit organization ( LOCAL ) </option>
-              <option value="ngo-intenational-website">Non profit organization ( INTERNATIONAL ) </option>
-              <option value="e-commerce-website">E-commerce ( COMING SOON!)</option>
-            </select>
-
-    
-        </div>
-
-
-
-
-
-
-
-      <div className="mt5 ">
-        <label className="db   f4 pb3 select-options-property-font" htmlFor="message" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}> Okay great — We'd love to help you with this project. Can you explain a little more about what you exactly need?</label>
-        <textarea
-         onChange ={this.onMessageChange}
-         className="input-box-styling tl  br2 shadow-5  gray  pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
-         style={{ 'fontSize':'1.0rem'}}
-         type="text" 
-         name="message"
-         placeholder="Your message. "
-         id="message" 
-         
-         rows="15"
-         cols="50"
-        >
-        </textarea>
-
-      </div>
-
-
-
-
-
-
-
-      <div className='pv2 tl mt4 select-options-property-font' style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>
-
-
-        Number of website pages - Estimate :
-            <select value={this.state.pages} onChange ={this.onPagesChange} className=" select-bx-stylin ml2 gray br2 pv2  ph2" style={{ 'fontSize':'1.0rem'}}>
-              <option value="1-5"> 1 to 5</option>
-              <option value=" 6-10">6 to 10 </option>
-              <option value="11-20">11 to 20</option>
-             
-            </select>
-
-    
-        </div>
-
-
-
-
-
-
-
-            <div className='pv2 tl mt4 select-options-property-font' style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>
-
-
-          How soon do you require the website :
-              <select value={this.state.urgency} onChange ={this.onUrgencyChange} className=" select-bx-stylin ml2 gray br2 pv2   ph2" style={{ 'fontSize':'1.0rem'}} >
-                <option value="1-2-weeks"> 1 to 2 weeks</option>
-                <option value=" 3-4-weeks">3 to 4 weeks </option>
-                <option value="1-2-months">1 to 2 months</option>
-               
-              </select>
-
-      
-          </div>
-
-
-
-
-
-
-
-      <div className="mv3 flex input-boxes-flex-on-mobile " >
-        <label className="w-30 db  select-options-property-font " htmlFor="companyName" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>Organization name :</label>
-        <input
-           onChange ={this.onCompanyNameChange}
-           className="input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
-           style={{ 'fontSize':'1.0rem'}}
-           type="text" 
-           name="companyName" 
-            id="companyName"
-            
-       />
-      </div>
-
-
-
-      <div className="mt3 flex input-boxes-flex-on-mobile">
-        <label className="w-30 db  select-options-property-font" htmlFor="yourName" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>Your Name :</label>
-        <input
-         onChange ={this.onYourNameChange}
-         className="input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70" 
-         style={{ 'fontSize':'1.0rem'}}
-         type="name" 
-         name="yourName" 
-          id="yourName" 
-          />
-
-      </div>
-
-
-
-
-      <div className="mt3 flex input-boxes-flex-on-mobile">
-        <label className="w-30 db  select-options-property-font" htmlFor="email-address" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>Email :</label>
-        <input 
-
-          onChange ={this.onEmailChange}
-          className=" input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70" 
-          style={{ 'fontSize':'1.0rem'}}
-          type="email"
-          name="email-address"  
-          id="email-address"
-          
-        />
-      </div>
-
-
-
-        <div className="mv3 flex input-boxes-flex-on-mobile">
-        <label className="w-30 db  select-options-property-font " htmlFor="phone" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>Phone :</label>
-        <input
-           onChange ={this.onPhoneChange}
-           className="input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
-           style ={{ 'fontSize':'1.0rem'}}
-           type="tel" 
-           name="phone" 
-            id="phone"
-            
-       />
-      </div>
-
-
-
-
-
-      <p className=' red pv4 dim  fw8' style={{ 'fontSize':'1.0rem'}}>* Fill in all details before sending.</p>
-											      <h2 className=' green  sent-paragraph-on-mobile ' atyle={{'fontSize':'1.0rem'}}>Sent. Thanks for getting in touch! Expect an answer from us in the next few hours.</h2>
-
-											     
-											    </fieldset>
-                          <Button variant="contained"  
-                      onClick ={this.onButtonSubmit}
-                      type="submit" 
-                      value="Send"
-                      className='button-links-on-mobile ' 
-                      style={{'backgroundColor':'black', 'color':'white', 'fontSize':'1.0rem', 'padding':'10px 30px 10px 30px', }} >
-                      SEND
-                      </Button>
-								      
-											    
-											  </div>
-											</main>
-										</article>
-							
-						    	   </div>
-				
+				    				 <h2 ref={this.myRef}  className=' green  sent-paragraph-on-mobile mv2 pv2' style={{'fontSize':'1.0rem'}}>Sent. Thanks for getting in touch! Expect an answer from us in the next few hours.</h2>
+                    <div className ='mt2 pv2'>
+                    <a href="/contact" onClick="location.reload()" className=' black dim pointer' style={{'fontSize':'1.0rem'}}>Get a New Quote</a>
+
+                    </div>
+                     
+                   				
 								
 				    			</div>	
 

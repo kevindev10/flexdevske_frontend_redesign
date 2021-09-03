@@ -1,17 +1,5 @@
 
-.select-bx-stylin{
-	background-image: linear-gradient(#F8F8F8,#CDCDCD);
-	border:1px solid #EDEDED;
-}
-.top-banner-size{
-	background-repeat: no-repeat;
-	background-size: cover;
-	
-	
-	height:700px ;
 
-
-}
 
 .select-bx-stylin:active{
 	border:1px solid !EDEDED;
@@ -24,22 +12,14 @@
 
 
 @media screen and (max-width: 960px){
-	.top-banner-size{
-		width: 100%;
-		height: 460px;
-	}	
-	.top-header {
-		font-size: 25px;
-		padding-left: 10px;
-		padding-right: 10px;
-	}	
-
-	.top-links{
-		justify-content: center;
-		font-size: 20px;
-		font-weight: bold;
-		
+	.header-margin-top-on-mobile-fix{
+		margin-top:45vh !important
 	}
+	.marginTop-on-mobile-fix{
+			margin-top: 2vh !important;
+	}
+
+
 
 	.contact-main-flex{
 		display: block;
@@ -53,11 +33,11 @@
 		
 	.contact-getintouch-width{
 		width: 100% !important;
-		margin-left: 10px !important;
-		margin-right: 10px !important;
+		margin-left: 8.8% !important;
+		margin-right: 8.8% !important;
 
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 0px;
+		padding-right: 0px;
 		
 	}	
 
@@ -66,24 +46,14 @@
 		margin-top: 60px;
 		padding-left: 0px;
 		padding-right: 0px;
-		margin-left: 8px !important;
-		margin-right:8px !important;
+		margin-left: 8.8% !important;
+		margin-right:8.8%!important;
 		
 	}
-	.contact-getintouch-font{
-		font-size: 25px !important;
 
-		
-	}
-	.contact-getfreequote-font{
-
-		font-size: 25px !important;
-		text-align: center;
-
-	}
 
 	.select-bx-stylin{
-		font-size: 16px !important;
+		xfont-size: 16px !important;
 		width: 100% !important;
 		padding-left: 5px;
 		padding-right: 5px;
@@ -115,14 +85,14 @@
 	}
 
 	.not-sent-on-mobile{
-		font-size: 26px !important;
+		
 		text-align: center;
 		padding: 20px;
 
 	}
 
 	.sent-paragraph-on-mobile{
-		font-size: 21px !important;
+		
 		text-align: center;
 		padding:10px;
 	}
