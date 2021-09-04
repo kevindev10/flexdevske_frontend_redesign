@@ -3,6 +3,7 @@ import './Contact.css';
 import banner from './banner.jpg';
 import Button from '@material-ui/core/Button';
 import Footer from '../Footer/Footer';
+import Tawk from '../Tawk/Tawk';
 
 
 const intialState ={
@@ -713,7 +714,7 @@ class Contact extends Component {
 
 
 
-
+						<Tawk/>
 
             <footer	>
               <Footer/>

@@ -6,6 +6,7 @@ import whyus from './whyus.jpg';
 import responsiveDesign from './responsiveWebDesign.mp4';
 import ourMission from './ourMission.jpg';
 import Footer from '../Footer/Footer';
+import Tawk from '../Tawk/Tawk';
 
 
 function Home() {
@@ -109,13 +110,13 @@ function Home() {
 				</main>
 
 				
-			
+				<Tawk/>
 				<footer>
 					<Footer/>
 				</footer>
 
 				
-				
+			
 				
 
 
