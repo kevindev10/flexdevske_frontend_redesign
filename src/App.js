@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import OurWork from './components/OurWork/OurWork';
 import Contact from  './components/Contact/Contact';
 import ScrollToTop from './components/ScrollToTop';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
 
               <Route exact path='/contact'>
                 <Contact/>
+              </Route>
+              <Route exact path='/blog'>
+                <Blog/>
               </Route>
 
          </Switch>
