@@ -10,7 +10,7 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: left !important;
+    justify-content: center;
     align-items:center;
    
 }
@@ -26,4 +26,21 @@ width: 100%!important;
 .blog-header{
   margin-top: 25vh;
   
+}
+
+@media screen and (max-width: 960px){
+
+
+.blog-heading-paragraph-on-mobile{
+  font-size:0.8rem !important;
+  padding-left: 0% !important;
+}
+
+
+.blog-font-on-mobile{
+  margin-top: 2%;
+  font-size: 1.2rem !important;
+
+}
+
 }

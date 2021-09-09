@@ -12,9 +12,9 @@ import Tawk from '../Tawk/Tawk';
 function Home() {
 	return(
 		<	>
-			 <section className='pb4 banner-slider' style={{ }}>
+			 <article className='pb4 banner-slider' style={{ }}>
 		       	<BannerSlider/>
-		    </section>
+		    </article>
 				<main>
 						<article className='pv6 first-heading-and-paragraph-on-mobile'>
 							<h1 className='tc  heading-on-mobile' style={{'fontSize':'1.6rem', 'marginLeft':'8.8%', 'marginRight':'8.8%'}}>Web Design & Development Nairobi</h1>

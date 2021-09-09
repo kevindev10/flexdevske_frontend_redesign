@@ -14,10 +14,10 @@ function Blog() {
         <article className="bg-black-60  cover-banner-on-blog-page">
 
                     <section >
-                      <p  className='white   blog-header  ' style={{'fontSize':'1.0rem','marginLeft':'8.8%', 'marginRight':'8.8%','textAlign':'left', 'paddingLeft':'0.5%' }} >READ OUR LATEST
+                      <p  className='white  blog-header  blog-heading-paragraph-on-mobile  ' style={{'fontSize':'1.0rem','marginLeft':'8.8%', 'marginRight':'8.8%','textAlign':'left', 'paddingLeft':'0.5%' }} >READ OUR LATEST
                       </p>
-                      <p className='white  ' style={{'fontSize':'4.6rem','marginLeft':'8.8%', 'marginRight':'8.8%', 'textAlign':'left'}} >BLOG
-                      </p>
+                      <h2 className='white blog-font-on-mobile ' style={{'fontSize':'4.6rem','marginLeft':'8.8%', 'marginRight':'8.8%', 'textAlign':'left'}} >BLOG
+                      </h2>
 
                       
                      
