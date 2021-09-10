@@ -55,8 +55,17 @@
 
 
 @media screen and (max-width: 960px) {
+
+   .banner-slider{
+      padding-bottom : 2% !important
+   }
+   .first-heading-and-paragraph-on-mobile{
+      padding-top: 8.8% !important;
+      padding-bottom : 8.8% !important
+   }
    .heading-on-mobile{
-      font-size: 1.6rem;
+      font-size:1.3rem !important ;
+      line-height: 30px !important;
       
       text-align: left;
    }

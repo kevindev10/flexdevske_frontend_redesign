@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.0rem;
+  
   position: sticky ;
   position: -webkit-sticky;
   
@@ -38,6 +39,7 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 1.6rem;
+  
   display: flex;
   align-items: center;
   font-family: 'Audiowide', cursive !important;

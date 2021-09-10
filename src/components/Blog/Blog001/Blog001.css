@@ -1,0 +1,38 @@
+
+
+
+@media screen and (max-width: 960px){
+ 
+  .blog-flex{
+    display: block;
+  }
+
+  .blog-main{
+     width: 100% !important;
+  }
+
+  .main-heading-font{
+    font-size:1.6rem !important ;
+    line-height: 35px !important;
+  }
+
+  .author-address{
+    display: block !important;
+  }
+
+  .author-address-date{
+    margin-left: 0%;
+    font-size: 0.8rem !important;
+  }
+  .h2-heading-font{
+    font-size:1.3rem !important ;
+    line-height: 30px !important;
+  }
+.disqus-on-mobile{
+    width: 82.4% !important;
+    margin-left : 8.8% !important;
+    margin-right: 8.8% !important;
+}
+
+
+}
