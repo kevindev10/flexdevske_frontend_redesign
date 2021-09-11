@@ -4,7 +4,10 @@ import moneyTree from "./moneyTree.jpg";
 import onlinePresence from "./onlinePresence.mp4";
 import trust from "./trust.jpg";
 import "./Blog001.css";
-import Disqus from "disqus-react"
+import Disqus from "disqus-react";
+import {EmailShareButton, FacebookShareButton, TwitterShareButton, WhatsappShareButton} from "react-share";
+import {EmailIcon, FacebookIcon, TwitterIcon, WhatsappIcon, RedditIcon, PinterestIcon} from "react-share";
+
 
 class Blog001 extends Component {
   render(){
@@ -16,6 +19,7 @@ class Blog001 extends Component {
     title: "The Importance Of Having A Website For Your Business In 2021/2022"
     
   }
+  const shareUrl = 'https://www.flexdevske.co.ke/contact';
 
 
 
@@ -64,9 +68,36 @@ class Blog001 extends Component {
                       September 13th, 2021.
                     </time>
                   </div>
+
+                  <section className='flex  mv3 pv2'>
+                    <p className=" mr3 fw8 " style={{fontSize: "1.0rem", lineHeight: "30px",  color: "#323a45", }}>Share |</p>
+                    <span className=''>
+                    <FacebookShareButton className='mr2' url={shareUrl} quote={'Web Design & Development'}>
+                        <FacebookIcon size ={30} round={true}/>
+                    </FacebookShareButton>
+
+                    <TwitterShareButton className='mr2'  url={shareUrl} quote={'Web Design & Development'}>
+                        <TwitterIcon size ={30} round={true}/>
+                    </TwitterShareButton>
+
+                    <WhatsappShareButton className='mr2'  url={shareUrl} quote={'Web Design & Development'}>
+                        <WhatsappIcon size ={30} round={true}/>
+                    </WhatsappShareButton>
+
+                    <EmailShareButton className='mr2'  url={shareUrl} quote={'Web Design & Development'} >
+                        <EmailIcon size ={30} round={true}/>
+                    </EmailShareButton>  
+                    </span> 
+                 
+                  </section>  
+                 
+                 
+                  
+
                 </header>
+                
                 <p
-                  className="mt4 pb3 "
+                  className="mt3 pb3 "
                   style={{
                     fontSize: "1.0rem",
                     lineHeight: "26px",
@@ -450,16 +481,137 @@ class Blog001 extends Component {
                   </p>
                 </section>
               </article>
+
+
+              <section className='flex  pv2'>
+                    <p className=" mr3 fw8 " style={{fontSize: "1.0rem", lineHeight: "30px",  color: "#323a45", }}>Share |</p>
+                    <span className=''>
+                    <FacebookShareButton className='mr2' url={shareUrl} quote={'Web Design & Development'}>
+                        <FacebookIcon size ={30} round={true}/>
+                    </FacebookShareButton>
+
+                    <TwitterShareButton className='mr2'  url={shareUrl} quote={'Web Design & Development'}>
+                        <TwitterIcon size ={30} round={true}/>
+                    </TwitterShareButton>
+
+                    <WhatsappShareButton className='mr2'  url={shareUrl} quote={'Web Design & Development'}>
+                        <WhatsappIcon size ={30} round={true}/>
+                    </WhatsappShareButton>
+
+                    <EmailShareButton className='mr2'  url={shareUrl} quote={'Web Design & Development'} >
+                        <EmailIcon size ={30} round={true}/>
+                    </EmailShareButton>  
+                    </span> 
+                 
+                  </section>  
             </main>
-  
-            <div className="ml3" style={{ width: "30%" }}>
-              <p>
-                Note that the development build is not optimized. To create a
-                production build, use npm run build.
-              </p>
-            </div>
+
+
+
+
+
+            
+                <aside className=" ml4 pl4 aside-border-left" style={{ width: "30%" }}>
+                      
+                      <article className="mv4">
+                      <header>
+                        <h2
+                          className='h2-heading-font'
+                          style={{
+                            fontSize: "1.6rem",
+                            lineHeight: "50px",
+                            color: "#1a1718",
+                          }}
+                        >
+                          FOLLOW US ON{" "}
+                        </h2>
+                      </header>
+
+
+
+                      <section>
+                      <div className=''>
+
+                                <a href="https://web.facebook.com/Flex-DevsKe-111123327891531" target="blank" rel="noreferrer" className='no-underline gray'>	<FacebookIcon size ={60}/> </a>
+
+                                <a href="https://twitter.com/home?logout=1625046868916" target="blank" rel="noreferrer" className='no-underline gray'>  <TwitterIcon size ={60}/> </a>
+
+                                <a href="./blog" className='no-underline gray'> <RedditIcon  size ={60}/></a>
+
+                                <a href="./blog"  className='no-underline gray'> <PinterestIcon size ={60}/></a>
+                                
+
+                                
+                       </div>
+
+
+                      </section>
+
+
+
+
+
+                      <section
+                          className="blog-get-a-free-quote-banner mv4"
+                          
+                        >
+                          <Link to="/contact" className="fw8  black no-underline dim  ">
+                          <article className=" free-quote-banner-cover ">
+                            <section>
+                              <h1
+                                className="white tc  free-quote-header "
+                                style={{
+                                  fontSize: "2.9rem",
+                                  marginLeft: "4.4%",
+                                  marginRight: "4.4%",
+
+                                }}
+                              >
+                                GET A FREE QUOTE
+                              </h1>
+
+                            
+                              
+                            </section>
+                          </article>
+                          </Link>
+                        </section>
+
+
+
+
+
+
+                      
+        
+                      <section
+                        className=" "
+                        style={{ paddingTop: "4vh", paddingBottom: "4vh" }}
+                      >
+                        <video
+                       
+                          autoPlay
+                          loop
+                          muted
+                          playsInline
+                          preload="auto"
+                          style={{ maxWidth: "100%" }}
+                        >
+                          <source src={onlinePresence} type="video/mp4" />
+                        </video>
+                      </section>
+                    </article>
+                </aside>
+                    
+                       
+                
           </div>
         </div>
+
+
+
+
+
 
 
          <section  className='mv5 disqus-on-mobile' style={{ width: "50%", marginLeft: "8.8%", marginRight: "41.2%" }}>

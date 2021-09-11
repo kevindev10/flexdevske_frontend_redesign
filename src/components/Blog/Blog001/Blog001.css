@@ -1,5 +1,48 @@
 
 
+.cover-banner-on-blog-page{
+  width: 100%!important;
+    height: 60vh !important;
+  }
+  
+  .blog-header{
+    margin-top: 25vh;
+    
+  }
+  
+  .blog-get-a-free-quote-banner{
+    background: no-repeat center;
+    background-size: cover;
+    background-color: rgb(236, 233, 17);
+    
+  
+    
+    width: 100%!important;
+    height: 40% !important;
+  
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  .free-quote-banner-cover{
+    width: 100%!important;
+    height: 40% !important;
+  }
+  
+  .free-quote-header {
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+  }
+  .aside-border-left{
+    border-left: 1px solid rgb(238, 237, 237);
+    box-shadow: -10px 0px 10px 1px rgb(238, 237, 237);
+   
+  }
+
 
 @media screen and (max-width: 960px){
  
@@ -34,5 +77,21 @@
     margin-right: 8.8% !important;
 }
 
+.aside-border-left{
+  width: 100% !important;
+  margin-left : 0% !important;
+    margin-right: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    
+}
 
+.aside-border-left{
+  border-left: none !important;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+ 
+}
 }
