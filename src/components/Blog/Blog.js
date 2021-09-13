@@ -4,6 +4,7 @@ import Tawk from '../Tawk/Tawk';
 import Blog001 from './Blog001/Blog001' ;
 import banner from './banner.png';
 import './Blog.css';
+import WhatsappButton from '../WhatsappButton/WhatsappButton';
 
 function Blog() {
  return(
@@ -39,6 +40,7 @@ function Blog() {
      <footer>
        <Footer/>
      </footer>
+     <WhatsappButton/>
    </>
  )
 }

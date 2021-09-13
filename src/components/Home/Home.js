@@ -7,14 +7,19 @@ import responsiveDesign from "./responsiveWebDesign.mp4";
 import ourMission from "./ourMission.jpg";
 import Footer from "../Footer/Footer";
 import Tawk from "../Tawk/Tawk";
+import WhatsappButton from "../WhatsappButton/WhatsappButton";
+
+
 
 function Home() {
   return (
     <>
+      
       <article className="pb4 banner-slider" style={{}}>
         <BannerSlider />
       </article>
-      <main>
+      
+      <main >
         <article className="pv6 first-heading-and-paragraph-on-mobile">
           <h1
             className="tc  heading-on-mobile"
@@ -180,6 +185,9 @@ function Home() {
       <footer>
         <Footer />
       </footer>
+
+      <WhatsappButton/>
+      
     </>
   );
 }

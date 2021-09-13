@@ -1,0 +1,19 @@
+.footer-icon-carevolution {
+  bottom:2.9vh;
+  position: fixed;
+  left: 20px;
+  height: 60px;
+  
+  z-index: 9;
+  color: #4FCE5D;
+ 
+  
+}
+
+
+@media screen and (max-width: 960px) {
+  .footer-icon-carevolution {
+    display: none;
+  }
+}
+

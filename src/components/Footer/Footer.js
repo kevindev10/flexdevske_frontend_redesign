@@ -21,14 +21,17 @@ function Footer() {
 
 
                             <div className='w-50-l width-100-cname'>
-                              <Link exact="true" to='/' className='no-underline white'  >
-                              <p className=' ml5 mb3 footer-company-name dim pointer'  style={{ 'fontSize':'3.3rem' ,'fontFamily':'Audiowide' }}> Flex DevsKe </p>
+                              <Link exact="true" to='/' className='no-underline white' aria-label="The Flex DevsKe website"  >
+                              <p className=' ml5 mb3 footer-company-name dim pointer'  style={{ 'fontSize':'3.3rem' ,'fontFamily':'Audiowide' }} > Flex DevsKe </p>
                               </Link>	
                               <div className='gray ml5 footer-all-social-icons'>
-                                <a href="https://web.facebook.com/Flex-DevsKe-111123327891531" target="blank" rel="noreferrer" className='no-underline gray'>	<i className=" fab fa-facebook-square fa-4x mr3  footer-social-facebook"></i> </a>
-                                <a href="https://twitter.com/home?logout=1625046868916" target="blank" rel="noreferrer" className='no-underline gray'>   <i className="fab fa-twitter-square  fa-4x mr3 footer-social-twitter"></i> </a>
+                                <a href="https://web.facebook.com/Flex-DevsKe-111123327891531" target="blank" rel="noreferrer" className='no-underline gray' aria-label="The Flex DevsKe Facebook link" >	<i className=" fab fa-facebook-square fa-4x mr3  footer-social-facebook"></i> </a>
+
+                                <a href="https://twitter.com/FDevske" target="blank" rel="noreferrer" className='no-underline gray' aria-label="The Flex DevsKe Twitter link">   <i className="fab fa-twitter-square  fa-4x mr3 footer-social-twitter"></i> </a>
+
                                 <i className="fab fa-instagram-square fa-4x mr3 footer-social-instagram"></i>
-                                <a href="https://wa.me/254789563415" target="blank" rel="noreferrer" className='no-underline gray'>	<i className=" fab fa-whatsapp-square fa-4x mr3  footer-social-whatsapp"></i> </a>
+
+                                <a href="https://wa.me/message/O2J5L6G63TQXB1" target="blank" rel="noreferrer" className='no-underline gray' aria-label="The Flex DevsKe WhatsApp chat link">	<i className=" fab fa-whatsapp-square fa-4x mr3  footer-social-whatsapp"></i> </a>
                               </div>
                             </div>
                             

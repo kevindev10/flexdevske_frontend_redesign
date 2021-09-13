@@ -29,6 +29,11 @@
   height: 80px;
   max-width: 1500px;
 }
+.company-logo{
+  width: 60px !important;
+  height: 60px !important;
+  margin-right: 10px;
+}
 
 .navbar-logo {
   color: black;
@@ -137,13 +142,25 @@
   .nav-links:focus{
     background-color:white;
   }
+  
 
+  .company-logo{
+
+    width: 40px !important;
+    height: 40px !important;
+    margin-top: 4.5%;
+    margin-left: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
   .navbar-logo {
     
     
     font-size: 1.4rem;
     margin-top: 6.5%;
-    margin-left: 5%;
+    margin-left: 18%;
     position: absolute;
     top: 0;
     left: 0;

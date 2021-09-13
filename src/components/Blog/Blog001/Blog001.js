@@ -9,22 +9,31 @@ import {EmailShareButton, FacebookShareButton, TwitterShareButton, WhatsappShare
 import {EmailIcon, FacebookIcon, TwitterIcon, WhatsappIcon, RedditIcon, PinterestIcon} from "react-share";
 
 
+
+
+
 class Blog001 extends Component {
   render(){
 
     const disqusShortname = "https-www-flexdevske-co-ke"
     const disqusConfig = {
-    url: "http://localhost:3000/blog",
+    url: "https://www.flexdevske.co.ke/blog'",
     identifier: "article-id",
     title: "The Importance Of Having A Website For Your Business In 2021/2022"
     
   }
-  const shareUrl = 'https://www.flexdevske.co.ke/contact';
+  const shareUrl = 'https://www.flexdevske.co.ke/blog';
 
 
 
     return (
       <>
+
+
+     
+
+
+
         <div className='blog-everything' style={{ width: "82.4%", marginLeft: "8.8%", marginRight: "8.8%" }}>
           <div className="flex mt4 blog-flex">
             <main className="mr3 blog-main" style={{ width: "70%" }}>
@@ -60,12 +69,12 @@ class Blog001 extends Component {
                     </address>{" "}
                     <time
                       pubdate="true"
-                      dateTime="2021-09-13"
-                      title="September 13th, 2021"
+                      dateTime="2021-09-12T11:15:30"
+                      title="September 12th, 2021, 11:15:30 am."
                       className="  fw8  ml3 tracked  author-address-date"
                       style={{ fontSize: "0.95rem" }}
                     >
-                      September 13th, 2021.
+                     Posted Sunday, September 12, 2021
                     </time>
                   </div>
 
@@ -192,21 +201,7 @@ class Blog001 extends Component {
                   </p>
                 </section>
   
-                <section
-                  className=" tc"
-                  style={{ paddingTop: "5vh", paddingBottom: "5vh" }}
-                >
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    preload="auto"
-                    style={{ maxWidth: "100%" }}
-                  >
-                    <source src={onlinePresence} type="video/mp4" />
-                  </video>
-                </section>
+                
               </article>
   
               <article className="mv4">
@@ -316,21 +311,7 @@ class Blog001 extends Component {
                   </p>
                 </section>
   
-                <section
-                  className=" tc"
-                  style={{ paddingTop: "5vh", paddingBottom: "5vh" }}
-                >
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    preload="auto"
-                    style={{ maxWidth: "100%" }}
-                  >
-                    <source src={onlinePresence} type="video/mp4" />
-                  </video>
-                </section>
+                
               </article>
   
               <article className="mv4">
@@ -584,22 +565,7 @@ class Blog001 extends Component {
 
                       
         
-                      <section
-                        className=" "
-                        style={{ paddingTop: "4vh", paddingBottom: "4vh" }}
-                      >
-                        <video
-                       
-                          autoPlay
-                          loop
-                          muted
-                          playsInline
-                          preload="auto"
-                          style={{ maxWidth: "100%" }}
-                        >
-                          <source src={onlinePresence} type="video/mp4" />
-                        </video>
-                      </section>
+                     
                     </article>
                 </aside>
                     

@@ -4,6 +4,7 @@ import banner from './banner.jpg';
 import Button from '@material-ui/core/Button';
 import Footer from '../Footer/Footer';
 import Tawk from '../Tawk/Tawk';
+import WhatsappButton from '../WhatsappButton/WhatsappButton'
 
 
 const intialState ={
@@ -150,7 +151,7 @@ class Contact extends Component {
             </div> 
 
 
-
+					<main>
 			    	<div className='pv4 flex contact-main-flex' style={{'width':'82.4%' ,'marginLeft':'8.8%', 'marginRight':'8.8%'}}>
 			    	
 			    	<article className='contact-getintouch-width' style={{'width':'40%'}}>
@@ -164,9 +165,9 @@ class Contact extends Component {
 							      Telephone <i className="fas fa-phone fa-1x ml3 blue"></i>
 							    </h2>
                   
-                  <a href="tel:0789563415" className='gray no-underline ' style={{ 'fontSize':'1.0rem'}}> (+254) 0789563415</a><br/><br/>
+                  <a href="tel:0789563415" className='instead-of-gray no-underline ' style={{ 'fontSize':'1.0rem'}}> (+254) 0789563415</a><br/><br/>
 
-                  <a href="tel:0721490923" className='gray no-underline' style={{ 'fontSize':'1.0rem'}}>(+254) 0721490923</a><br/>
+                  <a href="tel:0721490923" className='instead-of-gray no-underline' style={{ 'fontSize':'1.0rem'}}>(+254) 0721490923</a><br/>
 
 
                   <div style={{'borderTop':'1px solid #B8B8B8 '}}  className='mv4  mr5 linez'/>
@@ -179,7 +180,7 @@ class Contact extends Component {
 							      WhatsApp <i className=" fab fa-whatsapp-square fa-1x ml3 green "></i>
 							    </h2>
                   
-                  <a href="https://wa.me/254789563415" target="blank" rel="noreferrer" className='no-underline gray'  style={{ 'fontSize':'1.0rem'}}>	(+254) 0789563415  </a>
+                  <a href="https://wa.me/254789563415" target="blank" rel="noreferrer" className='no-underline instead-of-gray'  style={{ 'fontSize':'1.0rem'}}>	(+254) 0789563415  </a>
 
 
 							    <div style={{'borderTop':'1px solid #B8B8B8 '}}  className='mv4  mr5 linez'/>
@@ -191,10 +192,10 @@ class Contact extends Component {
 							      Email <i className="fa fa-envelope fa-1x ml3 blue" aria-hidden="true"></i>
 							    </h2>
 							    <p className='pv3 email-us'>
-									<a href="mailto:sales@flexdevske.co.ke"  className=' gray no-underline dim '  style={{"wordWrap": "breakWord", 'fontSize':'1.0rem'}} >sales@flexdevske.co.ke </a>							
+									<a href="mailto:sales@flexdevske.co.ke"  className=' instead-of-gray no-underline dim '  style={{"wordWrap": "breakWord", 'fontSize':'1.0rem'}} >sales@flexdevske.co.ke </a>							
 								</p>
 
-                <a href="mailto:flexdevske@gmail.com"  className=' gray no-underline dim  '  style={{"wordWrap": "breakWord", 'fontSize':'1.0rem'}} >flexdevske@gmail.com </a>		
+                <a href="mailto:flexdevske@gmail.com"  className=' instead-of-gray no-underline dim  '  style={{"wordWrap": "breakWord", 'fontSize':'1.0rem'}} >flexdevske@gmail.com </a>		
 							    
 							    
 
@@ -204,12 +205,12 @@ class Contact extends Component {
 
 
 
-							    <h2 className="f4 mid-gray lh-title mt0  fw9 mb4" style={{'color':'#3F1717', 'fontSize':'1.4rem'}}>
+							    <h2 className="f4 mid-instead-of-gray lh-title mt0  fw9 mb4" style={{'color':'#3F1717', 'fontSize':'1.4rem'}}>
 							      Address <i className="fa fa-map-marker fa-1x ml3 red" aria-hidden="true"></i>
 							    </h2>
-                  <p className="f4   gray  "  style={{"wordWrap": "breakWord", 'fontSize':'1.0rem'}}> 
+                  <p className="f4   instead-of-gray  "  style={{"wordWrap": "breakWord", 'fontSize':'1.0rem'}}> 
                   P.O BOX 26560 00504, </p><br/>
-							    <p className="f4   gray  "  style={{"wordWrap": "breakWord", 'fontSize':'1.0rem'}}> Nairobi, Kenya. </p>
+							    <p className="f4   instead-of-gray  "  style={{"wordWrap": "breakWord", 'fontSize':'1.0rem'}}> Nairobi, Kenya. </p>
 							    <div style={{'borderTop':'1px solid #B8B8B8 '}}  className='mv4  mr5 linez'/>
 							    	
 							    
@@ -228,7 +229,7 @@ class Contact extends Component {
 
 			    		<div>
 
-			    			<article className="br2 ba dark-gray  b--black-10 mv4    getfreequote-main" style={{'backgroundColor':'#FBFBFB'}} >
+			    			<article className="br2 ba  b--black-10 mv4    getfreequote-main" style={{'backgroundColor':'#FBFBFB'}} >
 								<main className="pa4 black-80  ">
 								  <div className="" >
 								    <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
@@ -245,7 +246,7 @@ class Contact extends Component {
 
 
 						    				 Type of website :
-									          <select value={this.state.websiteType} onChange={this.onWebsiteTypeChange} className=" select-bx-stylin ml2 gray br2 pv2  ph2" style={{ 'fontSize':'1.0rem'}} >
+									          <select value={this.state.websiteType} onChange={this.onWebsiteTypeChange} className=" select-bx-stylin ml2 instead-of-gray br2 pv2  ph2" style={{ 'fontSize':'1.0rem'}} >
 									            <option value="new-website">I need a new website</option>
 									            <option value="website-redesign">I need  a redesign of my current website</option>
 									            
@@ -263,7 +264,7 @@ class Contact extends Component {
 
 
 						    				Website category :
-									          <select value={this.state.companyType} onChange ={this.onCompanyTypeChange} className=" select-bx-stylin ml2 gray br2 pv2  ph2"  style={{ 'fontSize':'1.0rem'}}>
+									          <select value={this.state.companyType} onChange ={this.onCompanyTypeChange} className=" select-bx-stylin ml2 instead-of-gray br2 pv2  ph2"  style={{ 'fontSize':'1.0rem'}}>
 									            <option value="personal-website">Personal website</option>
 									            <option value="startup-website">Startup business </option>
 									            <option value="sme-website">Small and medium-sized enterprises ( SME )</option>
@@ -286,7 +287,7 @@ class Contact extends Component {
 								        <label className="db   f4 pb3 select-options-property-font" htmlFor="message" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}> Okay great — We'd love to help you with this project. Can you explain a little more about what you exactly need?</label>
 								        <textarea
 								         onChange ={this.onMessageChange}
-								         className="input-box-styling tl  br2 shadow-5  gray  pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
+								         className="input-box-styling tl  br2 shadow-5  instead-of-gray  pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
                          style={{ 'fontSize':'1.0rem'}}
 								         type="text" 
 								         name="message"
@@ -310,7 +311,7 @@ class Contact extends Component {
 
 
 						    				Number of website pages - Estimate :
-									          <select value={this.state.pages} onChange ={this.onPagesChange} className=" select-bx-stylin ml2 gray br2 pv2  ph2" style={{ 'fontSize':'1.0rem'}}>
+									          <select value={this.state.pages} onChange ={this.onPagesChange} className=" select-bx-stylin ml2 instead-of-gray br2 pv2  ph2" style={{ 'fontSize':'1.0rem'}}>
 									            <option value="1-5"> 1 to 5</option>
 									            <option value=" 6-10">6 to 10 </option>
 									            <option value="11-20">11 to 20</option>
@@ -330,7 +331,7 @@ class Contact extends Component {
 
 
 							    				How soon do you require the website :
-										          <select value={this.state.urgency} onChange ={this.onUrgencyChange} className=" select-bx-stylin ml2 gray br2 pv2   ph2" style={{ 'fontSize':'1.0rem'}} >
+										          <select value={this.state.urgency} onChange ={this.onUrgencyChange} className=" select-bx-stylin ml2 instead-of-gray br2 pv2   ph2" style={{ 'fontSize':'1.0rem'}} >
 										            <option value="1-2-weeks"> 1 to 2 weeks</option>
 										            <option value=" 3-4-weeks">3 to 4 weeks </option>
 										            <option value="1-2-months">1 to 2 months</option>
@@ -350,7 +351,7 @@ class Contact extends Component {
 								        <label className="w-30 db  select-options-property-font " htmlFor="companyName" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>Organization name :</label>
 								        <input
 								        	 onChange ={this.onCompanyNameChange}
-									         className="input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
+									         className="input-box-styling  instead-of-gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
                            style={{ 'fontSize':'1.0rem'}}
 									         type="text" 
 									         name="companyName" 
@@ -365,7 +366,7 @@ class Contact extends Component {
 								        <label className="w-30 db  select-options-property-font" htmlFor="yourName" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>Your Name :</label>
 								        <input
 								         onChange ={this.onYourNameChange}
-								         className="input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70" 
+								         className="input-box-styling  instead-of-gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70" 
                          style={{ 'fontSize':'1.0rem'}}
 								         type="name" 
 								         name="yourName" 
@@ -382,7 +383,7 @@ class Contact extends Component {
 								        <input 
 
 								        	onChange ={this.onEmailChange}
-									        className=" input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70" 
+									        className=" input-box-styling  instead-of-gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70" 
                           style={{ 'fontSize':'1.0rem'}}
 									        type="email"
 									        name="email-address"  
@@ -397,7 +398,7 @@ class Contact extends Component {
 								        <label className="w-30 db  select-options-property-font " htmlFor="phone" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>Phone :</label>
 								        <input
 								        	 onChange ={this.onPhoneChange}
-									         className="input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
+									         className="input-box-styling  instead-of-gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
                            style ={{ 'fontSize':'1.0rem'}}
 									         type="tel" 
 									         name="phone" 
@@ -455,7 +456,7 @@ class Contact extends Component {
 
                   <div>
 
-<article className="br2 ba dark-gray  b--black-10 mv4    getfreequote-main" style={{'backgroundColor':'#FBFBFB'}} >
+<article className="br2 ba   b--black-10 mv4    getfreequote-main" style={{'backgroundColor':'#FBFBFB'}} >
 <main className="pa4 black-80  ">
   <div className="" >
     <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
@@ -472,7 +473,7 @@ class Contact extends Component {
 
 
          Type of website :
-            <select value={this.state.websiteType} onChange={this.onWebsiteTypeChange} className=" select-bx-stylin ml2 gray br2 pv2  ph2" style={{ 'fontSize':'1.0rem'}} >
+            <select value={this.state.websiteType} onChange={this.onWebsiteTypeChange} className=" select-bx-stylin ml2 instead-of-gray br2 pv2  ph2" style={{ 'fontSize':'1.0rem'}} >
               <option value="new-website">I need a new website</option>
               <option value="website-redesign">I need  a redesign of my current website</option>
               
@@ -490,7 +491,7 @@ class Contact extends Component {
 
 
         Website category :
-            <select value={this.state.companyType} onChange ={this.onCompanyTypeChange} className=" select-bx-stylin ml2 gray br2 pv2  ph2"  style={{ 'fontSize':'1.0rem'}}>
+            <select value={this.state.companyType} onChange ={this.onCompanyTypeChange} className=" select-bx-stylin ml2 instead-of-gray br2 pv2  ph2"  style={{ 'fontSize':'1.0rem'}}>
               <option value="personal-website">Personal website</option>
               <option value="startup-website">Startup business </option>
               <option value="sme-website">Small and medium-sized enterprises ( SME )</option>
@@ -513,7 +514,7 @@ class Contact extends Component {
         <label className="db   f4 pb3 select-options-property-font" htmlFor="message" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}> Okay great — We'd love to help you with this project. Can you explain a little more about what you exactly need?</label>
         <textarea
          onChange ={this.onMessageChange}
-         className="input-box-styling tl  br2 shadow-5  gray  pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
+         className="input-box-styling tl  br2 shadow-5  instead-of-gray  pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" 
          style={{ 'fontSize':'1.0rem'}}
          type="text" 
          name="message"
@@ -537,7 +538,7 @@ class Contact extends Component {
 
 
         Number of website pages - Estimate :
-            <select value={this.state.pages} onChange ={this.onPagesChange} className=" select-bx-stylin ml2 gray br2 pv2  ph2" style={{ 'fontSize':'1.0rem'}}>
+            <select value={this.state.pages} onChange ={this.onPagesChange} className=" select-bx-stylin ml2 instead-of-gray br2 pv2  ph2" style={{ 'fontSize':'1.0rem'}}>
               <option value="1-5"> 1 to 5</option>
               <option value=" 6-10">6 to 10 </option>
               <option value="11-20">11 to 20</option>
@@ -557,7 +558,7 @@ class Contact extends Component {
 
 
           How soon do you require the website :
-              <select value={this.state.urgency} onChange ={this.onUrgencyChange} className=" select-bx-stylin ml2 gray br2 pv2   ph2" style={{ 'fontSize':'1.0rem'}} >
+              <select value={this.state.urgency} onChange ={this.onUrgencyChange} className=" select-bx-stylin ml2 instead-of-gray br2 pv2   ph2" style={{ 'fontSize':'1.0rem'}} >
                 <option value="1-2-weeks"> 1 to 2 weeks</option>
                 <option value=" 3-4-weeks">3 to 4 weeks </option>
                 <option value="1-2-months">1 to 2 months</option>
@@ -577,7 +578,7 @@ class Contact extends Component {
         <label className="w-30 db  select-options-property-font " htmlFor="companyName" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>Organization name :</label>
         <input
            onChange ={this.onCompanyNameChange}
-           className="input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
+           className="input-box-styling  instead-of-gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
            style={{ 'fontSize':'1.0rem'}}
            type="text" 
            name="companyName" 
@@ -592,7 +593,7 @@ class Contact extends Component {
         <label className="w-30 db  select-options-property-font" htmlFor="yourName" style={{'color':'#3F1717',  'fontSize':'1.0rem'}}>Your Name :</label>
         <input
          onChange ={this.onYourNameChange}
-         className="input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70" 
+         className="input-box-styling  instead-of-gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70" 
          style={{ 'fontSize':'1.0rem'}}
          type="name" 
          name="yourName" 
@@ -609,7 +610,7 @@ class Contact extends Component {
         <input 
 
           onChange ={this.onEmailChange}
-          className=" input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70" 
+          className=" input-box-styling  instead-of-gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70" 
           style={{ 'fontSize':'1.0rem'}}
           type="email"
           name="email-address"  
@@ -625,7 +626,7 @@ class Contact extends Component {
         <input
 						
            onChange ={this.onPhoneChange}
-           className="input-box-styling  gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
+           className="input-box-styling  instead-of-gray br2 shadow-5 pa3 input-reset ba bg-transparent hover-bg-black hover-white w-70 " 
            style ={{ 'fontSize':'1.0rem'}}
            type="tel" 
            name="phone" 
@@ -701,7 +702,7 @@ class Contact extends Component {
 
 
 			    	
-
+					</main>		
 
 			    
 
@@ -719,7 +720,7 @@ class Contact extends Component {
             <footer	>
               <Footer/>
             </footer>
-					
+						<WhatsappButton/>
 
 		
 

@@ -2,6 +2,11 @@ import React, { useState,  } from 'react';
 
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import companyLogo from './companyLogo.png';
+
+
+
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -25,10 +30,19 @@ function Navbar() {
 
   return (
     <>
+      
+      
       <nav className={navbar ? 'navbar active' :'navbar'}>
+      
         <div className='navbar-container'>
+        <Link to='/' onClick={closeMobileMenu} >
+          
+        <img src={companyLogo} alt='Company logo' className='company-logo' />
+        </Link>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
+          
             Flex DevsKe
+           
             
           </Link>
           <div className='menu-icon' onClick={handleClick}>

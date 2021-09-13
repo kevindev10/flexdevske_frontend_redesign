@@ -9,11 +9,13 @@ import Contact from  './components/Contact/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import Blog from './components/Blog/Blog';
 
+
 function App() {
   return (
     <Router>
       <ScrollToTop/>
-        <Navbar/>
+       <Navbar/>
+      
           <Switch>
               <Route exact path='/'>
                 <Home/>

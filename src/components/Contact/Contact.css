@@ -10,6 +10,10 @@
 	border:1px solid #EDEDED;
 }
 
+.instead-of-gray{
+	color: #323a45;
+}
+
 
 @media screen and (max-width: 960px){
 	.header-margin-top-on-mobile-fix{
