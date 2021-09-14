@@ -5,11 +5,18 @@ import Blog001 from './Blog001/Blog001' ;
 import banner from './banner.png';
 import './Blog.css';
 import WhatsappButton from '../WhatsappButton/WhatsappButton';
+import { Helmet } from 'react-helmet';
+
+
+
 
 function Blog() {
  return(
    <>
-
+        <Helmet>
+          <title>Our Blog</title>
+          <meta name="description" content="The Importance Of Having A Website For Your Business In 2021/2022" />
+        </Helmet>
         <div className='div-background-images-cover   'style={{"backgroundImage": "url(" + banner + ") ",  }}>
 
         <article className="bg-black-60  cover-banner-on-blog-page">
@@ -38,6 +45,7 @@ function Blog() {
       
      <Tawk/>
      <footer>
+
        <Footer/>
      </footer>
      <WhatsappButton/>

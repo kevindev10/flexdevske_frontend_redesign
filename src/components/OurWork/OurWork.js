@@ -11,7 +11,11 @@ import Button from "@material-ui/core/Button";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Tawk from "../Tawk/Tawk";
-import WhatsappButton from '../WhatsappButton/WhatsappButton'
+import WhatsappButton from '../WhatsappButton/WhatsappButton';
+import { Helmet } from 'react-helmet';
+
+
+
 
 function OurWork() {
   useEffect(() => {
@@ -19,6 +23,11 @@ function OurWork() {
   }, []);
   return (
     <>
+      <Helmet>
+        <title>Our Work</title>
+        <meta name="description" content="Some of our recent Website Design & Development Projects" />
+      </Helmet>
+
       <div
         className="div-background-images  "
         style={{ backgroundImage: "url(" + banner + ") " }}

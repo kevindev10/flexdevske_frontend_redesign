@@ -4,7 +4,8 @@ import banner from './banner.jpg';
 import Button from '@material-ui/core/Button';
 import Footer from '../Footer/Footer';
 import Tawk from '../Tawk/Tawk';
-import WhatsappButton from '../WhatsappButton/WhatsappButton'
+import WhatsappButton from '../WhatsappButton/WhatsappButton';
+import { Helmet } from 'react-helmet';
 
 
 const intialState ={
@@ -127,6 +128,12 @@ class Contact extends Component {
 	render(){
 		return(
 			<>
+
+      <Helmet>
+        <title>Contact us</title>
+        <meta name="description" content="Get A free Quote" />
+      </Helmet>
+
 					
           <div className='div-background-images  'style={{"backgroundImage": "url(" + banner + ") ",  }}>
 
