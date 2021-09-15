@@ -7,6 +7,8 @@ import "./Blog001.css";
 import Disqus from "disqus-react";
 import {EmailShareButton, FacebookShareButton, TwitterShareButton, WhatsappShareButton} from "react-share";
 import {EmailIcon, FacebookIcon, TwitterIcon, WhatsappIcon, RedditIcon, PinterestIcon} from "react-share";
+import GoogleAdsense from "../../GoogleAdsense/GoogleAdsense";
+
 
 
 
@@ -29,7 +31,7 @@ class Blog001 extends Component {
     return (
       <>
 
-
+      
      
 
 
@@ -200,7 +202,9 @@ class Blog001 extends Component {
                     access to the internet has access to your website.
                   </p>
                 </section>
-  
+                    <section>
+                      <GoogleAdsense/>
+                    </section>
                 
               </article>
   
@@ -310,7 +314,9 @@ class Blog001 extends Component {
                     drawing users back more often.
                   </p>
                 </section>
-  
+                <section>
+                  <GoogleAdsense/>
+                </section>
                 
               </article>
   
@@ -560,7 +566,9 @@ class Blog001 extends Component {
 
 
 
-
+                        <section>
+                          <GoogleAdsense/>
+                        </section>
 
 
                       
