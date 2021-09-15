@@ -18,6 +18,9 @@ function App() {
        <Navbar/>
           <Helmet>
               <meta charSet="utf-8" />
+
+
+
               <title>Flex DevsKe</title>
               <link rel="canonical" href="https://www.flexdevske.co.ke/"/>
               <meta name="description" content="We are a professional web design company based in Nairobi, Kenya. We create websites uniquely crafted for your business that generate more leads, allowing you to sell your products online, and raise awareness of your brand. Our beautifully designed websites will help you stand out from the crowd and help to convert your visitors into customers." />
