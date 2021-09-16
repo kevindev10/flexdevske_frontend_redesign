@@ -19,12 +19,12 @@ class Blog001 extends Component {
 
     const disqusShortname = "https-www-flexdevske-co-ke"
     const disqusConfig = {
-    url: "https://www.flexdevske.co.ke/blog'",
+    url: "https://www.flexdevske.co.ke/blog/",
     identifier: "article-id",
     title: "The Importance Of Having A Website For Your Business In 2021/2022"
     
   }
-  const shareUrl = 'https://www.flexdevske.co.ke/blog';
+  const shareUrl = 'https://www.flexdevske.co.ke/blog/';
 
 
 
