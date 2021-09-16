@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import Tawk from '../Tawk/Tawk';
 import WhatsappButton from '../WhatsappButton/WhatsappButton';
 import { Helmet } from 'react-helmet';
+import ReactGA from 'react-ga';
 
 
 const intialState ={
@@ -86,6 +87,10 @@ class Contact extends Component {
 	onButtonSubmit = (event) =>{
 
 		 event.preventDefault();
+		 ReactGA.event({
+			 category:'Button',
+			 action:'Clicked send button from get a free quote'
+		 })
 		fetch('https://core.server10.flexdevske.co.ke/sent', {
 			method:'post',
 			headers:{'Content-Type':'application/json'},

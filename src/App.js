@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import 'tachyons';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -9,9 +9,19 @@ import Contact from  './components/Contact/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import Blog from './components/Blog/Blog';
 import { Helmet } from 'react-helmet';
+import ReactGA from 'react-ga';
 
 
 function App() {
+
+
+  useEffect(() =>{
+    ReactGA.initialize('UA-207738195-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
+
+  },[])
+
   return (
     <Router>
       <ScrollToTop/>
