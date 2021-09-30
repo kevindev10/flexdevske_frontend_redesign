@@ -7,7 +7,7 @@ import "./Blog001.css";
 import Disqus from "disqus-react";
 import {EmailShareButton, FacebookShareButton, TwitterShareButton, WhatsappShareButton} from "react-share";
 import {EmailIcon, FacebookIcon, TwitterIcon, WhatsappIcon, RedditIcon, PinterestIcon} from "react-share";
-import GoogleAdsense from "../../GoogleAdsense/GoogleAdsense";
+//import GoogleAdsense from "../../GoogleAdsense/GoogleAdsense";
 
 
 
@@ -203,7 +203,7 @@ class Blog001 extends Component {
                   </p>
                 </section>
                     <section>
-                      <GoogleAdsense/>
+                      {/* <GoogleAdsense/> */}
                     </section>
                 
               </article>
@@ -315,7 +315,7 @@ class Blog001 extends Component {
                   </p>
                 </section>
                 <section>
-                  <GoogleAdsense/>
+                  {/* <GoogleAdsense/> */}
                 </section>
                 
               </article>
@@ -567,7 +567,7 @@ class Blog001 extends Component {
 
 
                         <section>
-                          <GoogleAdsense/>
+                          {/* <GoogleAdsense/> */}
                         </section>
 
 
