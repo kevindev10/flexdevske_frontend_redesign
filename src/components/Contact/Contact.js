@@ -17,7 +17,6 @@ import WhatsappButton from '../WhatsappButton/WhatsappButton';
 
 
 
-
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 
@@ -65,7 +64,7 @@ class Contact extends Component {
       action:'Clicked send button from get a free quote'
     })
 
-    fetch('http://192.168.100.4:3001/contactUs', {
+    fetch('https://dev.test.backend.server.flexdevske.co.ke/contactUs', {
       method:'post',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
@@ -84,8 +83,11 @@ class Contact extends Component {
       })
     })
     .then(response =>response.json())
+
+  
+
     .then(data => {
-      
+    
        if (data.success===false){
          this.setState({sent:false})
          this.setState({apiResponseMessage:data.msg})
@@ -124,7 +126,7 @@ class Contact extends Component {
    
                     <Helmet>
                       <title>Contact us</title>
-                      <meta name="description" content="Get A free Quote" />
+                      <meta name="description" content="Get A free website Quote" />
                     </Helmet>
                 
    
