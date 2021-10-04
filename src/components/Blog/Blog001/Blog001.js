@@ -521,7 +521,7 @@ class Blog001 extends Component {
 
                                 <a href="https://web.facebook.com/Flex-DevsKe-111123327891531" target="blank" rel="noreferrer" className='no-underline gray'>	<FacebookIcon size ={60}/> </a>
 
-                                <a href="https://twitter.com/home?logout=1625046868916" target="blank" rel="noreferrer" className='no-underline gray'>  <TwitterIcon size ={60}/> </a>
+                                <a href="https://twitter.com/FDevske" target="blank" rel="noreferrer" className='no-underline gray'>  <TwitterIcon size ={60}/> </a>
 
                                 <a href="./blog" className='no-underline gray'> <RedditIcon  size ={60}/></a>
 

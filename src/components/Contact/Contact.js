@@ -64,7 +64,7 @@ class Contact extends Component {
       action:'Clicked send button from get a free quote'
     })
 
-    fetch('https://dev.test.backend.server.flexdevske.co.ke/contactUs', {
+    fetch('https://www.api.server.flexdevske.co.ke/contactUs', {
       method:'post',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
