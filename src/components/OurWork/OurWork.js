@@ -99,7 +99,7 @@ function OurWork() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://lushroom.furniture.flexdevske.co.ke/"
+                      href="https://lushroomfurniture.flexdevske.co.ke/"
                       className="white no-underline"
                     >
                       <Button
@@ -177,7 +177,7 @@ function OurWork() {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://giga.plant.and.equipment.flexdevske.co.ke/"
+                        href="https://gigaplantandequipment.flexdevske.co.ke/"
                         className="white no-underline"
                       >
                         <Button
@@ -224,7 +224,7 @@ function OurWork() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://water.life.flexdevske.co.ke/"
+                      href="https://waterlife.flexdevske.co.ke/"
                       className="white no-underline"
                     >
                       <Button
@@ -302,7 +302,7 @@ function OurWork() {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://bionist.merchants.flexdevske.co.ke/"
+                        href="https://bionistmerchants.flexdevske.co.ke/"
                         className="white no-underline"
                       >
                         {" "}
@@ -351,7 +351,7 @@ function OurWork() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://instruous.construction.flexdevske.co.ke/"
+                      href="https://instruousconstruction.flexdevske.co.ke/"
                       className="white no-underline"
                     >
                       {" "}

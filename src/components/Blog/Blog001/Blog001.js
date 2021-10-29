@@ -6,7 +6,7 @@ import trust from "./trust.jpg";
 import "./Blog001.css";
 import Disqus from "disqus-react";
 import {EmailShareButton, FacebookShareButton, TwitterShareButton, WhatsappShareButton} from "react-share";
-import {EmailIcon, FacebookIcon, TwitterIcon, WhatsappIcon, RedditIcon, PinterestIcon} from "react-share";
+import {EmailIcon, FacebookIcon, TwitterIcon, WhatsappIcon,  PinterestIcon, LinkedinIcon} from "react-share";
 //import GoogleAdsense from "../../GoogleAdsense/GoogleAdsense";
 
 
@@ -523,7 +523,9 @@ class Blog001 extends Component {
 
                                 <a href="https://twitter.com/FDevske" target="blank" rel="noreferrer" className='no-underline gray'>  <TwitterIcon size ={60}/> </a>
 
-                                <a href="./blog" className='no-underline gray'> <RedditIcon  size ={60}/></a>
+                                <a href="https://www.linkedin.com/company/flex-devske" target="blank" rel="noreferrer" className='no-underline gray'>  <LinkedinIcon size ={60}/> </a>
+
+                               
 
                                 <a href="./blog"  className='no-underline gray'> <PinterestIcon size ={60}/></a>
                                 

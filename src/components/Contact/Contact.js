@@ -42,7 +42,8 @@ class Contact extends Component {
       this.state ={
         reCaptcha :'',
         apiResponseMessage:'',
-        sent:false
+        sent:false,
+        loading:false
       }
       this.myRef = React.createRef();
 		
@@ -64,7 +65,10 @@ class Contact extends Component {
       action:'Clicked send button from get a free quote'
     })
 
-    fetch('https://www.api.server.flexdevske.co.ke/contactUs', {
+
+    this.setState({loading:true});
+
+    fetch('https://apiserver.flexdevske.co.ke/contactUs', {
       method:'post',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
@@ -88,6 +92,8 @@ class Contact extends Component {
 
     .then(data => {
     
+      this.setState({loading:false});
+
        if (data.success===false){
          this.setState({sent:false})
          this.setState({apiResponseMessage:data.msg})
@@ -434,7 +440,11 @@ class Contact extends Component {
                                                         className='button-links-on-mobile ' 
                                                         style={{'backgroundColor':'black', 'color':'white', 'fontSize':'1.0rem', 'padding':'10px 30px 10px 30px', }} 
                                                         >
-                                                          SEND
+
+                                                          {this.state.loading && <i class="fas fa-spinner fa-spin fa-2x ph3"></i>}
+                                                          {this.state.loading && <span>SENDING......</span>}
+                                                          {!this.state.loading && <span>SEND</span>}
+
                                                         </Button>
                                                         
                                                       </div>

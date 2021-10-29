@@ -47,11 +47,11 @@ function Footer() {
                               
 
                               <p className='pt3 email-us'>
-                                <a href="mailto:sales@flexdevske.co.ke"  className='  white no-underline dim  email-us-font ' style={{ 'fontSize':'1.2rem' , }}>sales@flexdevske.co.ke 
+                                <a href="mailto:sales@flexdevske.co.ke" target="blank" rel="noreferrer" className='  white no-underline dim  email-us-font ' style={{ 'fontSize':'1.2rem' , }}>sales@flexdevske.co.ke 
                                 </a><br/>	
                                 </p>
                               <p className='pb3 mt2 email-us'>  
-                                <a href="mailto:flexdevske@gmail.com"  className='  white no-underline dim email-us-font ' style={{ 'fontSize':'1.2rem' , }}>flexdevske@gmail.com
+                                <a href="mailto:flexdevske@gmail.com" target="blank" rel="noreferrer"  className='  white no-underline dim email-us-font ' style={{ 'fontSize':'1.2rem' , }}>flexdevske@gmail.com
                                 </a>		
 
                               </p>
