@@ -6,6 +6,7 @@ import gigaPlantWebsite from "./gigaPlantWebsite.jpg";
 import waterLifeWebsite from "./waterLifeWebsite.jpg";
 import bionistMerchantsWebsite from "./bionistMerchantsWebsite.jpg";
 import instruousConstructionWebsite from "./instruousConstructionWebsite.jpg";
+import leveloneauto from "./leveloneauto.jpg"
 import Footer from "../Footer/Footer";
 import Button from "@material-ui/core/Button";
 import Aos from "aos";
@@ -76,6 +77,76 @@ function OurWork() {
 
       <main className="pv5 cards-backgound-color cards-padding-vertical-on-mobile ">
         <div>
+
+              
+        <section
+            className="portfolio-on-mobile-width"
+            style={{ width: "82.4%", marginLeft: "8.8%", marginRight: "8.8%",  }}
+          >
+            <article className="portfolio-on-mobile-article-second-paragraph">
+              <span
+                className="db  ph3 ph0-l no-underline black portfolio-on-mobile-article-padding "
+                href="#0"
+              >
+                <div className="flex flex-column flex-row-ns portfolio-on-mobile-main" >
+                  <div
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-offset="50"
+                    data-aos-delay="200"
+                    data-aos-duration="11000"
+                    className=" mb4 mb0-ns w-100 w-50-ns portfolio-on-mobile-img-width-second-image "
+                  >
+                    <img
+                      src={leveloneauto}
+                     
+                      className="db"
+                      alt=" Giga plant website."
+                    />
+                  </div>
+                  <div className="w-100 w-50-ns pl3-ns bg-white portfolio-on-mobile-pararaph-width">
+                    <h2
+                      className="  mt0 lh-title tc-l mt4 mt5-m mt6-l ph3 portfolio-on-mobile-pararaph-head-padding-second-paragraph"
+                      style={{ fontSize: "1.6rem" }}
+                    >
+                      LEVEL ONE AUTO {" "}
+                    </h2>
+                    <p
+                      className=" ph4 tc pt2 portfolio-on-mobile-pararaph-sub-head-padding"
+                      style={{ fontSize: "1.0rem" }}
+                    >
+                      Website Design / Development
+                    </p>
+                    <div className="tc pt4">
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://leveloneauto.flexdevske.co.ke/"
+                        className="white no-underline"
+                      >
+                        <Button
+                          variant="contained"
+                          className="button-links-on-mobile"
+                          style={{
+                            backgroundColor: "black",
+                            color: "white",
+                            fontSize: "0.75rem",
+                            padding: "9px",
+                          }}
+                        >
+                          {" "}
+                          VIEW DETAILS
+                        </Button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </article>
+          </section>
+
+
+
           <section
             className="portfolio-on-mobile-width"
             style={{ width: "82.4%", marginLeft: "8.8%", marginRight: "8.8%" }}

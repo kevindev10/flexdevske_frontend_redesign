@@ -7,8 +7,8 @@ function Footer() {
   return (
       <div>
          
-       	<div className="cover bg-left bg-center-l background-height" style={{"backgroundImage": "url("+footerBackground+")","height":"50vh" }}>
-									<article className="bg-black-80 background-cover " style={{"height":"50vh"}}>
+       	<div className="cover bg-left bg-center-l background-height" style={{"backgroundImage": "url("+footerBackground+")","height":"60vh" }}>
+									<article className="bg-black-80 background-cover " style={{"height":"60vh"}}>
 										
 										<section className="footer " style={{'paddingTop':'10vh',}}>
 										
@@ -80,6 +80,11 @@ function Footer() {
 
 										
 										</section>
+                    <div style={{textAlign:'center', color:'white', paddingTop:'5%', marginBottom:'5%',fontSize:'1rem'}}>
+                        
+                            Flex DevsKe &reg; {new Date().getFullYear()}
+                     
+                    </div>
 									</article>
 								</div> 
 
